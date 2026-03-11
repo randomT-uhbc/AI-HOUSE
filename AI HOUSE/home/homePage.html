@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>AI House</title>
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="homePage.css">
+        <link rel="stylesheet" href="/navBar/navBar.css">
+        <link rel="stylesheet" href="/navBar/navBarResponsive.css">
+        <script src="buttons.js" defer></script>
+        <script src="https://kit.fontawesome.com/d6430cceb1.js" crossorigin="anonymous"></script>
+        
+       
+    </head>
+    <body>
+
+        <nav class="navBar">
+    <div class="navBarLogo" >
+        <img  src="aihouse.png">
+        <h2 class="hlogo"><span class="grn">Ai</span> <span class="orng">House</span></h2>
+    </div>
+
+     <div class="pages">
+          <a  id="homebtn" href="/homePage/homePage.html">Home</a>
+          <a id="eventsbtn" href="/events/events.html">Events</a>
+          <a  id="projectsbtn" href="/projects/projects.html">Projects</a>
+          <a id="contactbtn" href="/Contact/contact.html">Contact</a>
+     </div>
+
+     <div class="navbBarBtns">
+      <button id="registerbtn"><i class="fa-solid fa-person-circle-plus"></i> Register</button>
+      <button id="loginbtn"><i class="fa-solid fa-arrow-right-to-bracket"></i> Log in</button>
+      <button id="nightbtn" class="nightbtn"><i class="fa-solid fa-moon"></i> Night</button>
+      <button class="arbtn">AR</button>
+     </div>
+</nav>
+
+        <div class="logincontainer"></div>
+        <div class="page-wrap">
+            <section class="hero">
+                <div class="nodes-bg">
+                <div class="node n1"></div>
+                <div class="node n2"></div>
+                <div class="node n3"></div>
+                <div class="node n4"></div>
+                <div class="node n5"></div>
+                <div class="node n6"></div>
+                <div class="node n7"></div>
+                <div class="node n8"></div>
+                <div class="node n9"></div>
+                <div class="node n10"></div>
+                </div>
+                <div class="hero-bg"></div>
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+
+                <div class="hero-content">
+                    <div class="hero-top">
+                       <img src="aihouse.png" class="hero-logo" >
+                    <div class="hero-badge">
+                        <div class="dot-live"></div>
+                        On-going Event !
+                    </div> 
+                    </div>
+                    
+
+                    <h1>
+                        Your home for<br>
+                        <em>Artificial</em> <span class="g">Intelligence</span><br>
+                        exploration
+                    </h1>
+
+
+                    <p class="hero-sub">
+                        AI House is a community-driven platform bringing together curious minds, hands-on events, and real AI experiences.
+                    </p>
+
+                    <div class="hero-actions">
+                        <button class="cta-primary">Explore Events</button>
+                        <button  id="join" class="cta-secondary">Join the club</button>
+                    </div>
+                </div>
+            </section>
+            <section class="about-section">
+                <div class="nodes-bg">
+                <div class="node n1i"></div>
+                <div class="node n2i"></div>
+                <div class="node n3i"></div>
+                <div class="node n4i"></div>
+                <div class="node n5i"></div>
+                
+                </div>
+                <div class="about-inner">
+                    <div class="about-label">WHAT WE DO</div>
+                    <div class="about-title"> A space where <span class="e">ideas meet intelligence</span></div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="icon icon-orange"><img src="aiw.png"></div>
+                        <div class="card-title">AI Workshops</div>
+                        <div class="card-text">Hands-on sessions covering machine learning, prompt engineering, and more.</div>
+                    </div>
+                    <div class="card">
+                        <div class="icon icon-green"><img src="communityi.png"></div>
+                        <div class="card-title">Community Learning</div>
+                        <div class="card-text">A welcoming space for beginners and experts to share knowledge and grow.</div>
+                    </div>
+                    <div class="card">
+                        <div class="icon icon-orange"><img src="hackathon.png"></div>
+                        <div class="card-title ">Hackathons</div>
+                        <div class="card-text">Competitive build events where teams create AI solutions to real problems.</div>
+                    </div>
+                    <div class="card">
+                        <div class="icon icon-green"><img src="guest.png"></div>
+                        <div class="card-title">Guest Talks</div>
+                        <div class="card-text">Industry professionals sharing insights about the latest AI trends.</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="modal" id="modal">
+           
+             <div class="background">
+
+        <div class="login-box">
+            <img class="logo" src="aihouse.png" alt="jpg">
+            <span  id="close" class="close">×</span>
+
+            <h2>Welcome <span>Back</span></h2>
+            <p>Sign in to your AI House account</p>
+
+            <form>
+
+                <label>Email address</label>
+                <input class="inp" required id="email" type="email" placeholder="you@example.com">
+
+                <label>Password</label>
+                <input class="inp" required id="password" type="password" placeholder="********">
+                <div class="forgot">
+                    <a href="#">Forgot password</a>
+                </div>
+
+
+                <div class="box"> <button type="submit">Sign In</button>
+                </div>
+
+                <div class="register">
+                    No account? <a href="#">Register here</a>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+        </div>
+
+    </body>
+</html>
