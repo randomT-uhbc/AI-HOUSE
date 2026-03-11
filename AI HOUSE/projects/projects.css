@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    transition: 0.3s;
+    background: #f8f8f8;
+}
+
+.projects {
+    text-align: center;
+    margin-top: 100px;;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 1px 2px 7px #fc912e;
+}
+
+.projects p {
+    color: #ff6a00;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.projects h1 {
+    font-size: 40px;
+    color: #111;
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    flex-wrap: wrap;
+  
+}
+
+.card {
+    width: 300px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+
+
+.card:hover {
+    transform: translateY(-8px);
+    border: solid 2px #ff6a00;
+    box-shadow: 2px 4px 12px #ff6a00;
+}
+
+.card-top {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.peach {
+    background:linear-gradient(rgb(202, 233, 202),rgb(239, 224, 195));
+}
+
+.greenbg {
+    background:linear-gradient(white,rgb(239, 206, 146)) ;
+}
+
+.graybg {
+    background: linear-gradient(white,rgb(158, 235, 158));
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.tags {
+    margin-bottom: 10px;
+}
+
+.tag {
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.orange {
+    background: #ffe0cc;
+    color: #ff6a00;
+}
+
+.green {
+    background: #dff5e7;
+    color: #16a34a;
+}
+
+.card-body h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.buttons button {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.github {
+    background: #eee;
+}
+
+.demo {
+    background: #ff6a00;
+    color: white;
+}
+
