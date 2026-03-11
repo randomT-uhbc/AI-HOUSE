@@ -1,0 +1,36 @@
+@media (max-width: 900px) {
+  .navBarLogo img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .pages a {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+  }
+
+  .navBarBtns button {
+    width: 75px;
+    height: 35px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .navBarLogo img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .pages a {
+    padding: 3px 6px;
+    font-size: 0.7rem;
+  }
+
+  .navBarBtns button {
+    width: 65px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+}
