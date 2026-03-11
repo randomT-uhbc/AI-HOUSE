@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+
+
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    transition: 0.3s;
+}
+
+
+.main {
+    margin-top: 100px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 1px 2px 7px #fc912e;
+}
+
+p {
+    color: orange;
+    font-style: italic;
+    line-height: 40px;
+}
+
+button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    gap: 40px;
+}
+
+button:hover {
+    background: orangered;
+    color: white;
+    margin: auto;
+}
+
+h1 {
+    font-style: italic;
+    margin-left: 50px;
+
+    font-weight: 700;
+
+}
+.events-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    justify-content: space-between;
+}
+
+.event-card:hover {
+    transform: translateY(-10px);
+    border: solid 2px #1ae62b;
+    box-shadow: 1px 10x 12px #3be507;
+}
+
+.event-card h3 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.event-card p {
+    color: black;
+    line-height: 1.4;
+}
+
+.info {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.tag {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.workshop {
+    background-color: #f8c383;}
+.hackathon{
+    background-color:#f8c383;
+    }
+.talk{
+    background-color: #f8c383;
+    }
+p.CC{
+    margin-left: 70%;
+    color: #5f5d5d;
+    font-size: 15px;
+}
+u{
+    color: rgb(13, 179, 13);
+}
