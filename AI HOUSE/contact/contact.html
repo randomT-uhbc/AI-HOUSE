@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - AI House</title>
+
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="contactResponsive.css">
+<link rel="stylesheet" href="/navBar/navBar.css">
+<link rel="stylesheet" href="/navBar/navBarResponsive.css">
+<link rel="stylesheet" href="/signin/signin.css">
+<script src="https://kit.fontawesome.com/d6430cceb1.js" crossorigin="anonymous"></script>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="buttons.js" defer></script>
+
+</head>
+
+<body id="body">
+   
+<nav class="navBar">
+    <div class="navBarLogo" >
+        <img  src="aihouse.png">
+        <h2 class="hlogo"><span class="grn">Ai</span> <span class="orng">House</span></h2>
+    </div>
+
+     <div class="pages">
+          <a  id="homebtn" href="/homePage/homePage.html">Home</a>
+          <a id="eventsbtn" href="/events/events.html">Events</a>
+          <a  id="projectsbtn" href="/projects/projects.html">Projects</a>
+          <a id="contactbtn" href="/Contact/contact.html">Contact</a>
+     </div>
+
+     <div class="navbBarBtns">
+      <button id="registerbtn"><i class="fa-solid fa-person-circle-plus"></i> Register</button>
+      <button id="loginbtn"><i class="fa-solid fa-arrow-right-to-bracket"></i> Log in</button>
+      <button id="nightbtn" class="nightbtn"><i class="fa-solid fa-moon"></i> Night</button>
+      <button class="arbtn">AR</button>
+     </div>
+</nav>
+
+    <div class="main">
+        <div class="bottom">
+            <section class="contact">
+                <div class="left">
+
+                    <h4>GET IN TOUCH</h4>
+                    <h1 id="swi">
+                    We'd love to <span>hear <br> from you</span>
+                    </h1>
+
+                    <p id="par">
+                    Whether you have a question about events, want to <br>
+                    collaborate, or just say hello — our team is always <br>
+                    happy to chat.
+                    </p>
+
+                    <br>
+
+                    <div class="info">
+
+                        <ul class="infos">
+
+                            <li>
+                            <h5>Email us at</h5>
+                            <b id="b">aihouse@univ-chlef.dz</b>
+                            <br><br>
+                            </li>
+
+                            <li>
+                            <h5>Find us at</h5>
+                            <b id="b">Faculty of science, Building B - Room 104</b>
+                            <br><br>
+                            </li>
+
+                            <li>
+                            <h5>Follow us</h5>
+                            <b id="b">@aihouseuhbc on Instagram</b>
+                            <br><br>
+                            </li>
+
+                            <li>
+                            <h5>Follow us</h5>
+                            <b id="b">@AI HOUSE UHBC on Facebook</b>
+                            <br><br>
+                            </li>
+
+                            <li>
+                            <h5>Open house</h5>
+                            <b id="b">Sunday - Thursday, 9:00 AM - 5:00 PM</b>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="right">
+
+                    <h1 class="send">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    Send a <span>Message</span>
+                    </h1>
+                    <h5>We'll get back to you within 24 hours</h5>
+
+                    <br><br>
+
+                    <form>
+                        <div class="row">
+                            <input class="name" type="text"  id="name" name="First name" placeholder="First name"  required>
+                            <br>
+                            <input class="name" type="text" id="Lname" name="Last name" placeholder="Last name" required>
+                        </div>
+
+                        <input class="email" type="email" id="email" name="Email" placeholder="enter your email" required>
+
+                        <label class="me" for="message">Message:</label>
+                        <br>
+
+                        <textarea class="text" id="message" name="Message" placeholder="Tell us what's on your mind...."
+                        rows="7" cols="50" minlength="2" autofocus required></textarea>
+
+                        <button type="submit">Send Message</button>
+
+                    </form>
+
+                </div>  
+
+            </section>
+
+        </div>
+
+    </div>
+     <div class="modal" id="modal">
+        <div class="background">
+
+        <div class="login-box">
+            <img class="logo" src="aihouse.png" alt="jpg">
+            <span class="close">×</span>
+
+            <h2>Welcome <span>Back</span></h2>
+            <p>Sign in to your AI House account</p>
+
+            <form>
+
+                <label>Email address</label>
+                <input class="inp" required id="email" type="email" placeholder="you@example.com">
+
+                <label>Password</label>
+                <input class="inp" required id="password" type="password" placeholder="********">
+                <div class="forgot">
+                    <a href="#">Forgot password</a>
+                </div>
+
+
+                <div class="box"> <button type="submit">Sign In</button>
+                </div>
+
+                <div class="register">
+                    No account? <a href="#">Register here</a>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+     </div>
+
+   
+</body>
+</html>

@@ -1,0 +1,83 @@
+@media (max-width: 900px){
+
+.contact {
+    flex-direction: column;
+    padding: 50px 30px 30px 30px;
+    gap: 40px;
+}
+
+.left {
+    flex: 1 1 100%;
+    margin-top: 30px;
+}
+
+.left h1 {
+    font-size: 32px;
+}
+
+.left p {
+    font-size: 14px;
+}
+
+.right {
+    flex: 1 1 100%;
+    padding: 20px;
+}
+
+form input,
+form textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px;
+}
+
+.row {
+    flex-direction: column;
+    gap: 10px;
+}
+
+}
+
+@media (max-width: 600px){
+
+.contact {
+    padding: 30px 15px 15px 15px;
+    gap: 30px;
+}
+
+.left{
+    margin-top: 50px;
+}
+.left h1 {
+    font-size: 26px;
+}
+
+.left p {
+    font-size: 13px;
+}
+
+.right {
+    padding: 15px;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    font-size: 13px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.row {
+    flex-direction: column;
+}
+
+}

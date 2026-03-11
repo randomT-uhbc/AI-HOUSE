@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    transition: 0.3s;
+    background: #f8f6f2;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #fc912e;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(12, 172, 4);
+}
+
+.signin {
+    background: orange;
+}
+
+.signin:hover {
+    background-color: rgb(72, 209, 13);
+}
+
+.register {
+    background: rgb(8, 182, 8);
+}
+
+.register:hover {
+    background: orange;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 60px 60px 60px; 
+    gap: 60px; 
+    align-items: flex-start; 
+}
+
+.left {
+    flex: 0 0 55%;
+}
+
+.left h4 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.left h5 {
+    font-family: 'Pacifico', cursive;
+    color: rgb(77, 226, 77);
+}
+
+.left b {
+    font-family: 'Lobster', cursive;
+}
+
+.left h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.left span {
+    color: orange;
+    font-family: cursive;
+}
+
+.left p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.info i {
+    font-size: 22px;
+}
+
+.info span {
+    font-size: 20px;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+.infos {
+    list-style: none;
+    padding: 0;
+}
+
+.infos li {
+    position: relative;
+    padding-left: 40px;
+    left: 4%;
+    margin-bottom: 20px;
+}
+
+.infos li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.infos li:nth-child(1)::before {
+    background-image: url("emailLOGO.png");
+    width: 8%;
+}
+
+.infos li:nth-child(2)::before {
+    background-image: url("locationLOGO.png");
+    width: 5%;
+}
+
+.infos li:nth-child(3)::before {
+    background-image: url("instaLOGO.png");
+}
+
+.infos li:nth-child(4)::before {
+    background-image: url("facebookLOGO.png");
+}
+
+.infos li:nth-child(5)::before {
+    background-image: url("workLOGO.png");
+}
+
+.right {
+    flex: 0 0 40%; 
+    padding: 30px;
+    background: linear-gradient(white, rgba(244, 228, 206, 0.824));
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #fc912e;
+    display: flex;
+    flex-direction: column;
+}
+
+.send {
+    font-family: cursive;
+    color: black;
+}
+
+.send i {
+    font-size: 30px;
+    color: rgb(53, 235, 12);
+}
+
+.send span {
+    color: rgb(19, 201, 19);
+}
+
+.right h1 {
+    margin-bottom: 10px;
+}
+
+.me {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgb(244, 244, 240);
+}
+
+.name, .email, .text {
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.name:focus,
+.email:focus,
+.text:focus,
+.name:valid,
+.email:valid,
+.text:valid {
+    outline: none;
+    border: solid 2px #fc912e;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.modal{
+   display: none; 
+  position: fixed; 
+  z-index: 10; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(8px);
+  justify-content: center;
+  align-items: center;
+}
